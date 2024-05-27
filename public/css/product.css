@@ -1,0 +1,31 @@
+body{
+    background-color:#dce3f0;
+}
+.card{
+    
+    width:350px;
+    height:370px;
+}
+
+.image{
+    position:absolute;
+    right:12px;
+    top:10px;
+}
+
+.main-heading{
+    
+    font-size:40px;
+    color:red !important;
+}
+
+.colors{
+    display:flex;
+    margin-top:2px;
+}
+
+.btn-danger{
+    
+    height:48px;
+    font-size:18px;
+}
