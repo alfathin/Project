@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
-  <script src="https://unpkg.com/feather-icons"></script>
   <head>
+    <script src="https://unpkg.com/feather-icons"></script>
+    {{-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.ngrok.com; style-src 'self' 'unsafe-inline';"> --}}
     @yield('headJs')
     {{-- <script type="text/javascript"
     src="https://app.stg.midtrans.com/snap/snap.js"
