@@ -12,6 +12,7 @@
         </div>
     </section>
 
+
     <div class="dropdown text-end mb-3">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Sort By Category
@@ -27,7 +28,7 @@
         @foreach ($products as $item)    
         <div class="col-md-4">
             <div class="height d-flex justify-content-center align-items-center">
-                <div class="card p-3">
+                <div class="card p-2">
                     <div class="d-flex justify-content-between align-items-center ">
                         <div class="mt-2">
                             <h4 class="text-uppercase text-body-tertiary">Ayang</h4>

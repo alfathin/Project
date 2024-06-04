@@ -3,7 +3,6 @@
 @section('container')
     <div class="container">
         <h1 class="mb-4">Selamat Datang, {{ auth()->user()->name }}!</h1>
-        <p>Ini adalah dashboard admin toko Anda. Gunakan sidebar untuk menavigasi ke berbagai bagian.</p>
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card bg-primary text-white h-100">

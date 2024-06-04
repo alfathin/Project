@@ -27,7 +27,7 @@
             <a class="nav-link text-white mt-2" href="/profile">Welcome, {{ auth()->user()->name }}</a>
             <form action="/logout" method="POST">
             @csrf
-            <button type="submit" class="btn btn-danger ms-3 me-3">Logout</button>
+            <button type="submit" class="btn btn-light ms-3 me-3">Logout</button>
             </form>
             @endauth
 

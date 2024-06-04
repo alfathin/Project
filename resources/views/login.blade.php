@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
                     <h1 class="mb-4">Login</h1>
-                    <form method="POST">
+                    <form method="post">
                         @csrf
                         <!-- Email input -->
                         <div class="form-outline mb-4">
